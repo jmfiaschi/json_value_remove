@@ -24,10 +24,9 @@ use json_value_remove::Remove;
 use serde_json::Value;
 
 {
-    let mut first_json_value: Value = serde_json::from_str(r#"["a","b"]"#).unwrap();
-    let secound_json_value: Value = serde_json::from_str(r#"["b","c"]"#).unwrap();
-    first_json_value.merge(secound_json_value);
-    assert_eq!(r#"["a","b","c"]"#, first_json_value.to_string());
+    let mut array1: Value = serde_json::from_str(r#"{"my_table":["a","b","c"]}"#).unwrap();
+    assert_eq!(Some(Value::String("a".to_string())), array1.remove("/my_table/0").unwrap());
+    assert_eq!(r#"{"my_table":["b","c"]}"#, array1.to_string());
 }
 ```
 
@@ -40,15 +39,9 @@ use json_value_remove::Remove;
 use serde_json::Value;
 
 {
-    let mut first_json_value: Value =
-        serde_json::from_str(r#"[{"value":"a"},{"value":"b"}]"#).unwrap();
-    let secound_json_value: Value =
-        serde_json::from_str(r#"[{"value":"b"},{"value":"c"}]"#).unwrap();
-    first_json_value.merge(secound_json_value);
-    assert_eq!(
-        r#"[{"value":"a"},{"value":"b"},{"value":"c"}]"#,
-        first_json_value.to_string()
-    );
+    let mut object1: Value = serde_json::from_str(r#"{"field1.0":{"field1.1":"value1.1","field1.2":"value1.2"},"field2.0":"value2.0"}"#).unwrap();
+    assert_eq!(Some(Value::String("value1.2".to_string())), object1.remove("/field1.0/field1.2").unwrap());
+    assert_eq!(r#"{"field1.0":{"field1.1":"value1.1"},"field2.0":"value2.0"}"#,object1.to_string());
 }
 ```
 
