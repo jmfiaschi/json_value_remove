@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1630604669473,
+  "lastUpdate": 1638830950833,
   "repoUrl": "https://github.com/jmfiaschi/json_value_remove",
   "entries": {
     "Benchmark": [
@@ -71,6 +71,42 @@ window.BENCHMARK_DATA = {
             "name": "Remove/remove_in_object",
             "value": 433,
             "range": "± 1",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "jm.fiaschi",
+            "username": "jmfiaschi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "08b316c68142c8af7c19443b23347dacbedc1496",
+          "message": "fix(Cargo): typo for LICENSES",
+          "timestamp": "2021-12-06T23:42:52+01:00",
+          "tree_id": "2bbc9e024fc9384440203dd440db633e54c972ca",
+          "url": "https://github.com/jmfiaschi/json_value_remove/commit/08b316c68142c8af7c19443b23347dacbedc1496"
+        },
+        "date": 1638830950413,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Remove/remove_in_array",
+            "value": 628,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Remove/remove_in_object",
+            "value": 469,
+            "range": "± 17",
             "unit": "ns/iter"
           }
         ]
