@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/jmfiaschi/json_value_remove/compare/v1.0.0...v1.0.1) (2021-12-06)
+
+
+### Bug Fixes
+
+* **Cargo:** typo for LICENSES ([08b316c](https://github.com/jmfiaschi/json_value_remove/commit/08b316c68142c8af7c19443b23347dacbedc1496))
+
 # 1.0.0 (2021-09-02)
 
 
