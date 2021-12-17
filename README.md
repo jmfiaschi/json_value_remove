@@ -1,6 +1,5 @@
 # json_value_remove
 
-[![Linter](https://github.com/jmfiaschi/json_value_remove/workflows/Lint/badge.svg)](https://github.com/jmfiaschi/json_value_remove/actions/workflows/lint.yml)
 [![Actions Status](https://github.com/jmfiaschi/json_value_remove/workflows/CI/badge.svg)](https://github.com/jmfiaschi/json_value_remove/actions/workflows/ci.yml)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
