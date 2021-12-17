@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639778152623,
+  "lastUpdate": 1639778223555,
   "repoUrl": "https://github.com/jmfiaschi/json_value_remove",
   "entries": {
     "Benchmark": [
@@ -71,6 +71,42 @@ window.BENCHMARK_DATA = {
             "name": "Remove/remove_in_object",
             "value": 510,
             "range": "± 31",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "jmfiaschi",
+            "username": "jmfiaschi"
+          },
+          "committer": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "jmfiaschi",
+            "username": "jmfiaschi"
+          },
+          "distinct": true,
+          "id": "24d1a9dda41dcd6ac7c624db2ef33edd17a087ad",
+          "message": "fix(Cargo): update version automatically",
+          "timestamp": "2021-12-17T22:50:11+01:00",
+          "tree_id": "091e1be9337e824762a5fd3e8826e51b55053329",
+          "url": "https://github.com/jmfiaschi/json_value_remove/commit/24d1a9dda41dcd6ac7c624db2ef33edd17a087ad"
+        },
+        "date": 1639778222640,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Remove/remove_in_array",
+            "value": 670,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Remove/remove_in_object",
+            "value": 504,
+            "range": "± 17",
             "unit": "ns/iter"
           }
         ]
