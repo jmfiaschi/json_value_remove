@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1639778871981,
+  "lastUpdate": 1639779424300,
   "repoUrl": "https://github.com/jmfiaschi/json_value_remove",
   "entries": {
     "Benchmark": [
@@ -131,6 +131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/jmfiaschi/json_value_remove/commit/9ec9b49f64a822b80fea458435d21f70ab24978d"
         },
         "date": 1639778871573,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Remove/remove_in_array",
+            "value": 539,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Remove/remove_in_object",
+            "value": 401,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "jm.fiaschi",
+            "username": "jmfiaschi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9ec9b49f64a822b80fea458435d21f70ab24978d",
+          "message": "fix(Cargo): update version automatically",
+          "timestamp": "2021-12-17T23:02:16+01:00",
+          "tree_id": "4eb84abfd66dc5aaf254ac0a1f17ed1585ae6c8a",
+          "url": "https://github.com/jmfiaschi/json_value_remove/commit/9ec9b49f64a822b80fea458435d21f70ab24978d"
+        },
+        "date": 1639779423829,
         "tool": "cargo",
         "benches": [
           {
