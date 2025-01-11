@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736632970634,
+  "lastUpdate": 1736636949216,
   "repoUrl": "https://github.com/jmfiaschi/json_value_remove",
   "entries": {
     "Benchmark": [
@@ -287,6 +287,42 @@ window.BENCHMARK_DATA = {
             "name": "Remove/remove_in_object",
             "value": 275,
             "range": "± 2",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "Jean-Marc FIASCHI",
+            "username": "jmfiaschi"
+          },
+          "committer": {
+            "email": "jm.fiaschi@gmail.com",
+            "name": "Jean-Marc FIASCHI",
+            "username": "jmfiaschi"
+          },
+          "distinct": true,
+          "id": "3964ff68656ec1a26f5a47bb50b57b1188f16c60",
+          "message": "feat(makefile): add",
+          "timestamp": "2025-01-12T00:07:13+01:00",
+          "tree_id": "74f417c5e98ed6539b43c4dd8478ec0dc743391a",
+          "url": "https://github.com/jmfiaschi/json_value_remove/commit/3964ff68656ec1a26f5a47bb50b57b1188f16c60"
+        },
+        "date": 1736636948397,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Remove/remove_in_array",
+            "value": 399,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Remove/remove_in_object",
+            "value": 275,
+            "range": "± 16",
             "unit": "ns/iter"
           }
         ]
