@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/jmfiaschi/json_value_remove/compare/v1.0.2...v1.1.0) (2025-01-11)
+
+
+### Features
+
+* **cargo:** remove default feature ([b0d091b](https://github.com/jmfiaschi/json_value_remove/commit/b0d091b2228a4e2a6e8ad307124bf9ca863bdf0f))
+* **makefile:** add ([3964ff6](https://github.com/jmfiaschi/json_value_remove/commit/3964ff68656ec1a26f5a47bb50b57b1188f16c60))
+
 ## [1.0.1](https://github.com/jmfiaschi/json_value_remove/compare/v1.0.0...v1.0.1) (2021-12-06)
 
 
